@@ -36,7 +36,7 @@ header{
   height: 140px;
   width: 108px;
   position: relative;
-  transform: translateX(-110px) 
+  /* transform: translateX(-110px)  */
 }
 
 #box2{

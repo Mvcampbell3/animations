@@ -12,5 +12,5 @@ app.use(express.static(path.join(__dirname, "public"), { extensions: ['html'] })
 app.use(routes);
 
 app.listen(PORT, () => {
-  console.log(`Server is live on https://localhost:3000`);
+  console.log(`Server is live on http://localhost:3000`);
 })
