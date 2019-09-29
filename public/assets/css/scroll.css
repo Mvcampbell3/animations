@@ -1,7 +1,6 @@
 .container-scroll{
   width: 100%;
   min-height: calc(100vh - 38.8px);
-  background-color: #aaa;
   padding-bottom: 3000px;
 }
 
