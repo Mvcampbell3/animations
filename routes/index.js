@@ -16,5 +16,8 @@ router.get("/loading", (req,res) => {
   res.sendFile(path.join(__dirname, "loading.html"))
 })
 
+router.get("/scroll", (req, res) => {
+  res.sendFile(path.join(__dirname, "scroll/html"))
+})
 
 module.exports = router;
